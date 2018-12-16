@@ -8,15 +8,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class = "container">
+        <div class="menu" id="myMenu">
+            <a href="#home" class="active">Home</a>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Portfolio Sections
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                        <a href="#">About Me</a>
+                        <a href="#">Projects</a>
+                        <a href="#">Technical Skills</a>
+                        <a href="#">Skills Queue</a>
+                        <a href="#">Education</a>
+                        <a href="#">Interests</a>
+                        <a href="#">Contact</a>
+                </div>
+            </div>
+
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> -->
+        </div>
+        
         <header>HEADER</header>
-        <aside class = "menu">MENU</aside>
-        <main class = "content">CONTENT</main>
+        <div class="about">About Me</div>
+        <div class="projects">Projects</div>
+        <div class="techskills">Technical Skills</div>
+        <div class="queue">In The Queue</div>
+        <div class="education">Education & Training</div>
+        <div class="interests">Interests</div>
+        <div class="contact">Contact Me</div>
         <footer>FOOTER</footer>
     </div>
 
 </div>
+    <script src='js/main.js'></script>
 </body>
 </html>
