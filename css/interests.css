@@ -1,0 +1,33 @@
+.interests {
+    grid-column: 1 / -1;
+    height: 100vw;
+    display: grid;
+    grid-template-columns: 1fr repeat(4, 200px) 1fr;
+    /* grid-auto-rows: 425px; */
+}
+
+.int-title {
+    grid-column: 1 / -1;
+  
+}
+
+.int-list {
+    grid-column: 2 / 3;
+}
+
+.gridtable {
+    grid-column: 4 / 7;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border-top: 1px solid black; */
+    /* border-right: 1px solid black; */
+}
+
+.gridtable > span {
+    padding: 8px 4px;
+    /* border-left: 1px solid black;
+    border-bottom: 1px solid black; */
+}
+
+
+

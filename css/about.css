@@ -1,0 +1,33 @@
+.about {
+    grid-column: 1 / -1;
+    display: grid;
+    height: 100vh;
+    background-color: lightblue;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-column-gap: 10px;
+    /* grid-template-areas:
+    "abt abt abt"
+    "abpic abtxt abtxt"
+    "abpic abtxt abtxt"; */
+} 
+
+
+.about-title {
+  grid-column: 1 / -1;
+}
+
+
+.about-pic {
+  grid-column: 1 / 2;
+}
+
+.about-pic img {
+  height: 300px;
+  border-radius: 50%;
+}
+
+.about-text {
+  grid-column: 2 / -1;
+}

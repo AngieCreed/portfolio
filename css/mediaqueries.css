@@ -1,0 +1,127 @@
+/* @media screen and (max-width: 640px) {
+    .container {
+        grid-template-areas:
+        "m m m m m m m m"
+        "h h h h h h h h"
+        "a a a a a a a a"
+        "p p p p p p p p"
+        "t t t t t t t t"
+        "q q q q q q q q"
+        "e e e e e e e e"
+        "i i i i i i i i"
+        "l l l l l l l l"
+        "f f f f f f f f";
+    }
+}
+
+
+/* navbar */
+@media screen and (max-width: 600px) {
+    .menu a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .menu a.icon {
+      float: right;
+      display: block;
+    }
+    .menu.responsive {position: relative;}
+    .menu.responsive a.icon {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .menu.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .menu.responsive .dropdown {float: none;}
+    .menu.responsive .dropdown-content {position: relative;}
+    .menu.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+
+  /* @media screen and (max-width: 640px) {
+    #about {
+        grid-area: a;
+        display: grid;
+        height: 100vh;
+        grid-row-gap: 20px;
+        align-items: center;
+        justify-items: center;  
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+        "abt"
+        "abpic"
+        "abtxt"
+    }
+    #about>.about-title {
+      grid-area: abt;
+      grid-row: 1 / 2;
+    }
+    
+    #about>.about-pic {
+      grid-area: abpic;
+      grid-row: 2 / 4;
+    }
+    
+    #about>.about-pic > img {
+      grid-area: abpic;
+      border-radius: 50%;
+      z-index: 1;
+      height: 100px;
+      
+    }
+    
+    #about > .about-text {
+      grid-area: abtxt;
+      grid-row: 3 / 5;
+    }
+  } */
+
+
+
+  /* @media screen and (max-width: 960px) {
+    .projects {
+        grid-area: p;
+        display: grid; */
+        /* height: 100vh;
+        grid-row-gap: 10px;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        "title title"
+        "f1 f2"
+        "f3 f4"
+        "f5 ."
+        ;
+    }
+  }
+  
+  
+  @media screen and (max-width: 640px) {
+    .projects {
+        grid-area: p;
+        display: grid;
+        /* height: 100vh; */
+        /* grid-row-gap: 10px;
+        align-items: center;
+        justify-items: center;  
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "title"
+        "f1"
+        "f2"
+        "f3"
+        "f4"
+        "f5"
+        ;
+    } */
+  /* }  */
